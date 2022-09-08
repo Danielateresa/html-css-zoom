@@ -42,9 +42,13 @@
 
 .background {
     padding: 0.2rem;
-    background-color: #0000008e;
+    background-color: #aba8a88e;
 
 
+}
+
+span.background {
+    margin: 0.5rem 0.5rem 0 0;
 }
 
 .pinko {
@@ -56,10 +60,13 @@
 
 .top_badge {
     position: absolute;
-    top: 0;
+    top: 0.5rem;
     right: 0;
 }
 
+.top_badge i {
+    display: inline;
+}
 
 
 /* #region bottom_bar */
