@@ -1,0 +1,28 @@
+:root {
+
+    --zm-black: #222222;
+    --zm-darkgray: #4A4A4A;
+    --zm-green: #4BC800;
+    --zm-red: #E31619;
+    --zm-white: #FFFFFF;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_fluid {
+    height: 100vh;
+    background-color: var(--zm-black);
+    padding-top: 5rem;
+}
+
+.partecipants {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #E31619;
+}
