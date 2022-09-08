@@ -18,11 +18,32 @@
     height: 100vh;
     background-color: var(--zm-black);
     padding-top: 5rem;
+    color: var(--zm-white);
 }
 
 .partecipants {
     width: 90%;
     height: 100px;
     margin: 0 auto;
-    background-color: #E31619;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.frame {
+    width: calc(100% / 12 * 1.6);
+    background-color: #FFFFFF;
+    height: 140px;
+    background-image: url(https://picsum.photos/240/150?random=1);
+    margin: 0.2rem 0.5rem;
+    position: relative;
+}
+
+
+.background {
+    padding: 0.2rem;
+    background-color: #0000008e;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
