@@ -43,11 +43,24 @@
 .background {
     padding: 0.2rem;
     background-color: #0000008e;
+
+
+}
+
+.pinko {
     display: inline-block;
     position: absolute;
     bottom: 0;
     left: 0;
 }
+
+.top_badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
 
 /* #region bottom_bar */
 .bottom_bar {
